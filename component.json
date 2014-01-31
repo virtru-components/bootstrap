@@ -1,5 +1,5 @@
 {
-  "name": "components-bootstrap",
+  "name": "bootstrap",
   "repo": "components/bootstrap",
   "description": "Sleek, intuitive, and powerful front-end framework for faster and easier web development.",
   "version": "3.0.0",
@@ -9,21 +9,10 @@
   ],
   "license": "Apache-2.0",
   "dependencies": {
-    "components/jquery": "2.0.3"
+    "components/jquery": "*"
   },
   "main": "js/bootstrap.js",
   "scripts": [
     "js/bootstrap.js"
-  ],
-  "files": [
-    "css/bootstrap.min.css",
-    "css/bootstrap-theme.css",
-    "css/bootstrap-theme.min.css"
-  ],
-  "fonts": [
-    "fonts/glyphicons-halflings-regular.eot",
-    "fonts/glyphicons-halflings-regular.svg",
-    "fonts/glyphicons-halflings-regular.ttf",
-    "fonts/glyphicons-halflings-regular.woff"
   ]
 }
