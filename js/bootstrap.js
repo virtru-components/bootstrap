@@ -4,8 +4,10 @@
 * http://www.apache.org/licenses/LICENSE-2.0
 */
 
-var jQuery = require('jquery');
-if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
+var jQuery = require('jquery-ellipsis');
+
+//if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
+
 
 /* ========================================================================
  * Bootstrap: transition.js v3.0.0
@@ -62,7 +64,7 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
     $.support.transition = transitionEnd()
   })
 
-}(window.jQuery);
+}(jQuery);
 
 /* ========================================================================
  * Bootstrap: alert.js v3.0.0
@@ -161,7 +163,7 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
 
   $(document).on('click.bs.alert.data-api', dismiss, Alert.prototype.close)
 
-}(window.jQuery);
+}(jQuery);
 
 /* ========================================================================
  * Bootstrap: button.js v3.0.0
@@ -271,7 +273,7 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
     e.preventDefault()
   })
 
-}(window.jQuery);
+}(jQuery);
 
 /* ========================================================================
  * Bootstrap: carousel.js v3.0.0
@@ -489,7 +491,7 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
     })
   })
 
-}(window.jQuery);
+}(jQuery);
 
 /* ========================================================================
  * Bootstrap: collapse.js v3.0.0
@@ -669,7 +671,7 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
     $target.collapse(option)
   })
 
-}(window.jQuery);
+}(jQuery);
 
 /* ========================================================================
  * Bootstrap: dropdown.js v3.0.0
@@ -824,7 +826,7 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
     .on('click.bs.dropdown.data-api'  , toggle, Dropdown.prototype.toggle)
     .on('keydown.bs.dropdown.data-api', toggle + ', [role=menu]' , Dropdown.prototype.keydown)
 
-}(window.jQuery);
+}(jQuery);
 
 /* ========================================================================
  * Bootstrap: modal.js v3.0.0
@@ -1071,7 +1073,7 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
     .on('show.bs.modal',  '.modal', function () { $(document.body).addClass('modal-open') })
     .on('hidden.bs.modal', '.modal', function () { $(document.body).removeClass('modal-open') })
 
-}(window.jQuery);
+}(jQuery);
 
 /* ========================================================================
  * Bootstrap: tooltip.js v3.0.0
@@ -1458,7 +1460,7 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
     return this
   }
 
-}(window.jQuery);
+}(jQuery);
 
 /* ========================================================================
  * Bootstrap: popover.js v3.0.0
@@ -1576,7 +1578,7 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
     return this
   }
 
-}(window.jQuery);
+}(jQuery);
 
 /* ========================================================================
  * Bootstrap: scrollspy.js v3.0.0
@@ -1735,7 +1737,7 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
     })
   })
 
-}(window.jQuery);
+}(jQuery);
 
 /* ========================================================================
  * Bootstrap: tab.js v3.0.0
@@ -1871,7 +1873,7 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
     $(this).tab('show')
   })
 
-}(window.jQuery);
+}(jQuery);
 
 /* ========================================================================
  * Bootstrap: affix.js v3.0.0
@@ -1998,4 +2000,6 @@ if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
     })
   })
 
-}(window.jQuery);
+}(jQuery);
+
+module.exports = jQuery;
