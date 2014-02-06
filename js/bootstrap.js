@@ -4,7 +4,7 @@
 * http://www.apache.org/licenses/LICENSE-2.0
 */
 
-var jQuery = require('jquery-ellipsis');
+var jQuery = require('jquery');
 
 //if (!jQuery) { throw new Error("Bootstrap requires jQuery") }
 
@@ -27,7 +27,6 @@ var jQuery = require('jquery-ellipsis');
  * See the License for the specific language governing permissions and
  * limitations under the License.
  * ======================================================================== */
-
 
 +function ($) { "use strict";
 
