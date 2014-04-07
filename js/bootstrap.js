@@ -2000,5 +2000,3 @@ var jQuery = require('jquery');
   })
 
 }(jQuery);
-
-module.exports = jQuery;

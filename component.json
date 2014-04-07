@@ -9,8 +9,7 @@
   ],
   "license": "Apache-2.0",
   "dependencies": {
-    "components/jquery": "*",
-    "virtru-components/jquery-ellipsis": "1.0.10"
+    "components/jquery": "*"
   },
   "main": "js/bootstrap.js",
   "scripts": [
