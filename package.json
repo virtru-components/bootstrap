@@ -2,6 +2,7 @@
   "name": "bootstrap",
   "description": "Bootstrap",
   "version": "3.1.0",
+  "main": "js/bootstrap.js"
   "dependencies": {
     "jquery": "2.1.0"
   }
